@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Thandwe Legal Practitioners</title>
+  <meta name="description" content="Explore legal services offered by Thandwe Legal Practitioners in Lusaka, Zambia.">
+  <link rel="stylesheet" href="./styles.css?v=20260401-6">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="top-contact-bar">
+    <div class="container top-contact-inner">
+      <p>Consult with confidence: <a href="tel:+260977000000">+260 977 000 000</a> | <a href="mailto:info@thandwelegal.com">info@thandwelegal.com</a></p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="logo" aria-label="Thandwe Legal Practitioners home">Thandwe Legal Practitioners</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a class="active" href="./services.html">Services</a>
+        <a href="./practice-areas.html">Practice Areas</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="phone-link" href="tel:+260977000000">+260 977 000 000</a>
+        <a class="btn btn-primary" href="./contact.html#contact-form-panel">Book Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section page-hero">
+      <div class="container">
+        <p class="eyebrow">Our Services</p>
+        <h1>Legal Services for Individuals and Businesses</h1>
+        <p class="hero-support">Focused legal services built around results and protection.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container card-grid">
+        <article class="info-card">
+          <h2>Legal Consultation</h2>
+          <p>Case review and legal advice before you act.</p>
+        </article>
+        <article class="info-card">
+          <h2>Contract Drafting & Review</h2>
+          <p>Drafting and review of agreements to reduce legal risk.</p>
+        </article>
+        <article class="info-card">
+          <h2>Corporate Legal Support</h2>
+          <p>Business formation, governance, and compliance support.</p>
+        </article>
+        <article class="info-card">
+          <h2>Dispute Resolution</h2>
+          <p>Advice and representation in civil and commercial disputes.</p>
+        </article>
+        <article class="info-card">
+          <h2>Property & Land Advisory</h2>
+          <p>Due diligence and support for ownership and transfer disputes.</p>
+        </article>
+        <article class="info-card">
+          <h2>Regulatory & Compliance Guidance</h2>
+          <p>Compliance advice aligned with Zambian legal requirements.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <h2>How We Work</h2>
+        <ol class="steps-list">
+          <li><strong>Consultation:</strong> We review your matter and define priorities.</li>
+          <li><strong>Strategy:</strong> We explain options, risks, and next steps.</li>
+          <li><strong>Execution:</strong> We implement, negotiate, and represent you.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="container final-cta-inner">
+        <h2>Need Legal Support Right Now?</h2>
+        <p>Speak with our team and get practical legal guidance.</p>
+        <div class="hero-cta-group">
+          <a class="btn btn-primary" href="./contact.html#contact-form-panel">Request Consultation</a>
+          <a class="btn btn-secondary" href="./practice-areas.html">View Practice Areas</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="./index.html" class="logo">Thandwe Legal Practitioners</a>
+        <p>Trusted legal support in Lusaka, Zambia.</p>
+      </div>
+      <nav class="footer-links" aria-label="Useful links">
+        <h3 class="footer-title">Useful Links</h3>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./practice-areas.html">Practice Areas</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <nav class="footer-links" aria-label="Information links">
+        <h3 class="footer-title">Information</h3>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Cookie Policy</a>
+      </nav>
+      <div>
+        <h3 class="footer-title">Contact</h3>
+        <p class="footer-contact-item"><strong>Address:</strong> Lusaka, Zambia</p>
+        <p class="footer-contact-item"><strong>Mobile:</strong> <a href="tel:+260977000000">+260 977 000 000</a></p>
+        <p class="footer-contact-item"><strong>Email:</strong> <a href="mailto:info@thandwelegal.com">info@thandwelegal.com</a></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="disclaimer">Thandwe Legal Practitioners Copyright &copy; 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".primary-nav");
+    if (menuToggle && nav) {
+      menuToggle.addEventListener("click", () => {
+        const expanded = menuToggle.getAttribute("aria-expanded") === "true";
+        menuToggle.setAttribute("aria-expanded", String(!expanded));
+        nav.classList.toggle("nav-open");
+      });
+    }
+  </script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,30 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24416C"/>
+      <stop offset="1" stop-color="#162B4B"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1260 130) rotate(90) scale(220 260)">
+      <stop stop-color="#D6BA84" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#D6BA84" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#sunGlow)"/>
+  <rect y="620" width="1600" height="280" fill="#0F213B"/>
+  <g opacity="0.45" fill="#C5A86E">
+    <rect x="210" y="520" width="24" height="100"/>
+    <rect x="250" y="510" width="24" height="110"/>
+    <rect x="290" y="500" width="24" height="120"/>
+    <rect x="330" y="490" width="24" height="130"/>
+    <rect x="370" y="500" width="24" height="120"/>
+    <rect x="410" y="510" width="24" height="110"/>
+    <rect x="450" y="520" width="24" height="100"/>
+    <polygon points="190,520 342,430 494,520"/>
+    <rect x="180" y="620" width="330" height="28"/>
+  </g>
+  <g opacity="0.18" stroke="#D5B77C">
+    <path d="M-60 770 C 260 630, 500 680, 820 560 C 1120 450, 1360 500, 1660 360"/>
+    <path d="M-90 820 C 250 700, 520 730, 860 620 C 1160 520, 1400 560, 1700 430"/>
+  </g>
+</svg>
